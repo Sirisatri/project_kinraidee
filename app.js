@@ -19,7 +19,7 @@ const form = document.getElementById("addmenu")
 async function getAllMenu(db){
     const allmenu = collection(db, 'menu')
     const menuname = getDocs(allmenu)
-    return menuname
+    return menuname // get docs from col menu
 }
 
 function showdata(showmenu){
